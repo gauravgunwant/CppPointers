@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+
     // variable assignation in pointers, and using them!
     int *ptr = new int;
     *ptr = 5; // value assigned!
@@ -11,6 +12,7 @@ int main(){
     cout << *ptr << " "<< *ptr1 << endl;
 
     // array assignation in pointers, and using them!
+        // This is 1 D array!!
     int n;
     cin >> n;
     int *ptr2 = new int[n];
